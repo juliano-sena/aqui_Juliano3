@@ -54,4 +54,4 @@ jobs:
           app-name: 'deployfrontgp4'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3915F315072742B186CDAD651E0C9C17 }}
-          package: .
+          package: . "build"
